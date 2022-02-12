@@ -1,0 +1,56 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+    z-index: 5;
+}
+.leftNavbar{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarIcon{
+    font-size: 18px;
+    color: #666;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.centerNavbar{
+    flex: 6;
+}
+.menuNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuNavbarItem{
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: pointer;
+}
+.rightNavbar{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+    justify-content: center;
+}
+.navbarSearchIcon{
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+}

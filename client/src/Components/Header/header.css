@@ -1,0 +1,32 @@
+.Header{
+    width: 100%;
+    position: relative;
+    font-family: 'Lora', serif;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+.headerSmallTitle{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+.headerLargeTitle{
+    font-size: 100px;
+    position: absolute;
+    top: 4%;
+}
+.headerImages{
+    margin-top: 85px;
+}
+.headerLandingImage{
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

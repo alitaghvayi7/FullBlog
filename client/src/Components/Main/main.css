@@ -1,0 +1,12 @@
+.postsContainer{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttonContainer{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

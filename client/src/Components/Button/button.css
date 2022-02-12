@@ -1,0 +1,10 @@
+.btn{
+    font-size: 18px;
+    background-color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+ul,ol,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+fieldset,input,button{
+  border: none;
+}
+input,button{
+  outline: none;
+}
